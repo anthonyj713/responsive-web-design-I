@@ -63,9 +63,13 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-body{
+/* body{
     margin:5%;
     width:100%;
+} */
+.container{
+    width:900px;
+    margin: 0 auto;
 }
 nav{
 	display:flex;
@@ -74,6 +78,7 @@ nav{
     align-items:center;
     width:90%;
     padding: 0 5%;
+    margin-top: 5%;
 }
 .navigation{
     display:flex;
@@ -102,6 +107,8 @@ h1{
 .button{
 	font-size:15px;
     width: 90%;
+    background-color:white;
+    border: 1px solid black;
 }
 .circle{
 	margin-top: 3%;
